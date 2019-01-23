@@ -32,17 +32,18 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "favicon": "@PROJECT_PATH@/assets/images/dsc-7873-128x85-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/dsc-2165-2-128x64.png",
     "noImageResize": "",
     "cookiesAlert": "",
-    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "gdpr": "",
     "google-analytics": "",
     "siteUrl": "undefined",
     "uniqCompNum": 27,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "robotsSwitcher": "on"
+    "robotsSwitcher": "on",
+    "сanonical-url": ""
   },
   "pages": {
     "index.html": {
