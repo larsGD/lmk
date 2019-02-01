@@ -1,56 +1,46 @@
 {
   "settings": {
-    "name": "Site-11-20_1616",
+    "name": "Bulletin",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise-amp",
-      "title": "Mobirise AMP",
+      "name": "mobirise4",
+      "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#4ea2e3",
-        "secondaryColor": "#4addff",
-        "successColor": "#0dcd7b",
-        "infoColor": "#8282e7",
-        "warningColor": "#767676",
-        "dangerColor": "#a0a0a0",
-        "mainFont": "Roboto",
-        "display1Font": "Roboto",
-        "display1Size": 4.5,
-        "display2Font": "Roboto",
-        "display2Size": 2.2,
-        "display5Font": "Roboto",
-        "display5Size": 1.8,
-        "display7Font": "Roboto",
-        "display7Size": 1.1,
-        "display4Font": "Roboto",
-        "display4Size": 0.9,
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
         "isRoundedButtons": true,
-        "isScrollToTopButton": true,
-        "arrowColor": "#4ea2e3"
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
       },
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.8.1",
+    "versionFirst": "4.9.1",
     "siteFonts": [],
-    "favicon": "@PROJECT_PATH@/assets/images/dsc-2165-2-128x64.png",
-    "noImageResize": "",
-    "cookiesAlert": "",
-    "gdpr": "",
-    "google-analytics": "",
-    "siteUrl": "",
-    "uniqCompNum": 27,
+    "uniqCompNum": 7,
     "versionPublish": "4.9.1",
-    "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "robotsSwitcher": "on",
-    "сanonical-url": "",
-    "sitemapSwitcherAuto": "on"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Hem",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -59,77 +49,17 @@
       "components": [
         {
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-btn": {
-              "margin-bottom": "20px"
-            },
-            "amp-img": {
-              "width": "100%",
-              "text-align": "center",
-              "margin": "0 auto",
-              "max-width": "~'@{imageWidth}%'"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"100\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc-7888-2000x1335.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#a0a0a0\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Ludvika Musikkår</h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\">\n                    Musikalisk glädjespridare sedan år 1903</h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">START BUILDING</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://mobirise.co\">LEARN MORE</a>\n\n                </div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/dsc-792-1460x980.jpg\" alt=\"Mobirise\" width=\"730.5303514376997\" height=\"461\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dsc-792-1460x980.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "r9XhTgwa98",
-          "_anchor": "header2-5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card": {
-              "margin-bottom": "20px",
-              "position": "relative",
-              "display": "flex",
-              "-ms-flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "min-width": "0",
-              "word-wrap": "break-word",
-              "background-clip": "border-box",
-              "border-radius": ".25rem",
-              "width": "100%",
-              "min-height": "1px"
-            },
-            ".card-title": {
-              "margin": "0"
-            },
-            ".card-box": {
-              "padding-top": "2rem"
-            },
-            "amp-img": {
-              "width": "100%"
-            },
-            ".mbr-text": {
-              "color": "#767676",
-              "text-align": "left"
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
             }
           },
-          "_name": "features1",
-          "_customHTML": "<section class=\"features1 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/dsc-2165-1080x723.jpg\" layout=\"responsive\" width=\"540.7468879668049\" height=\"362\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dsc-2165-1080x723.jpg\" alt=\"Mobirise\" title>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>\n                            Traditionell avslutning av 2018<br></b><br></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>\n                            Ludvika Musikkår avslutade året med en fin konsert i Ludvika Ulrika Kyrka. Konserten var samtidigt början på ett firande av Ludvika 100 år som kommer att pågå under hela 2019.&nbsp;<br></b><br>Saxofonisterna Jan Johansson, Håkan Hultgren, Erik Olsén och Lars Blom (bilden ovan) har under det senaste året framträtt i olika sammanhang som Ludvika Saxqvartett och bjöd publiken i kyrkan på två egna nummer Visa efter Torn-Erik i ett arrangemang av Nils Lindberg och Waelsisk vaggsång.<br><br><br><br></p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/dsc-798-1460x980.jpg\" layout=\"responsive\" height=\"362\" width=\"539.3061224489796\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dsc-798-1460x980.jpg\" alt=\"Mobirise\" title>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>\n                            Konsertprogram 2019</b><br><b><br></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">2019-02-09 Konsert - Norrbärke kyrka, kl 16.00. Sångsolist -                     Katarina Frisk \n<br>2019-03-23 Konsert - Aveny Ludvika \n<br>2019-04-28 Konsert – Cassels med Saxdalens Manskör \n<br>2019-05-01 Marsch \n<br>2019-05-18 Blåsmusikens dag Ludvika \n<br>2019-06-06 Nationaldagen \n<br>2019-06-07 Studentspelning \n<br>2019-06-08 Evenemang på stan \n<br>2019-06-18 Ludvika Stadslopp, 14.00-15.00 \n<br>2019-11-16 Konsert i Lindesberg tillsammans med                     Guldsmedshyttans Musikkår och Martin Almgren \n<br>2019-11-23 Konsert - Aveny Ludvika tillsammans med                     Guldsmedshyttans Musikkår och Martin Almgren &nbsp;<br></p><p><br></p><p></p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
-          "_cid": "rg0bPLgfQU",
-          "_anchor": "features1-t",
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Bulletin</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Aktuellt program för Ludvika Musikkår<br><br>Repetitioner som vanligt tisdagar kl 19.00-21.00 i vår egen lokal Tingshusgatan 9 i Ludvika.&nbsp;</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rgRirr27zP",
+          "_anchor": "content4-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -140,343 +70,51 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            "& when (@flexDirection)": {
-              ".mbr-row": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".text-block": {
-              "margin": "auto"
-            },
-            "amp-img": {
-              "text-align": "center"
-            }
-          },
-          "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/erik-rapp-873x1304.jpg\" layout=\"responsive\" width=\"540.2691717791411\" height=\"807\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/erik-rapp-873x1304.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Bröllopsfesten urartade, blev cirkus och rena vilda västern&nbsp;</h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Skulle kunna vara löpsedeln i en kvällstidning men är också den korta sammanfattningen av konserten som Ludvika Musikkår genomförde på Aveny i Ludvika med solisten på valthorn Erik Rapp den 10 november. Rubriken skulle lika gärna kunna vara ”En hyllning till Östergötland”.\n</b><br>\n<br>Gunilla Söderholm tog kommando över orkestern från den första tonen till den sista med sin dirigentpinne och lotsade blåsarna igenom konserten i två intensiva timmar. Håkan Hultgren konstaterade i sin presentation att landskapet Östergötland blev den röda tråden, som knöt samman de olika delarna i konsertprogrammet.\n<br>\n<br>Konserten som genomfördes var samtidigt ett firande av 115 års oavbruten musikalisk verksamhet i Ludvika. En pampig inledning med Mats Janhagens Victorias Festmarsch som skrevs till H.K.H Kronprinsessan Victorias 18-års dag satte ribban för det fortsatta programmet.\n<br>\n<br>Film utan musik vore nog ganska tråkigt. Musik i film kan framkalla känslor och stämningar på ett helt underbart sätt. Ett knippe melodier ur många kända filmer komponerat av Alan Silvestri (bl a ledmotivet ur Forrest Gump) följde sedan i A Night at the Movies.\n<br>\n<br>Gunilla Söderholm har uttalat sin förtjusning i svensk originalmusik och som dirigent valt en Slottssvit av Jerker Johansson att ingå i programmet. De tre satserna i sviten beskriver ett bröllop som i den sista satsen håller på att urarta i en virvlande dans festligheter och inte helt lättspelad för en blåsorkester.\n<br>\n<br>Kvällens höjdpunkt utan tvekan var Erik Rapps två solistframträdanden på valthorn. I första avdelningen spelade Erik Concerto för Valthorn komponerat av den finlandssvenske klarinettvirtuosen Bernhard Henrik Crusell, som för exakt 200 år sedan utnämndes till musikdirektör vid första och andra livgrenadjärregementet i Linköping. Ett suveränt framförande av en musiker som nu är verksam i samma stad i Östgötamusiken sedan 1988. I den andra avdelningen följde sedan Camille Saint-Saëns Morceau de Concert.\n<br>\n<br>Lite cirkus blev det då Musikkåren sattes på prov i In the Centre Ring av Robert Sheldon där livet i en cirkusmanege illustrerades av musikakrobatik och snabba taktbyten i högt tempo utan livlina.\n<br>\n<br>Innan avslutning med Under blågul fana som extranummer fanns det också plats för ett besök i Vilda Västern med musik från TV-serien How The West Was Won från mitten av 70-talet. Efter de två solistframträdandena tog även Erik Rapp plats i hornsektionen och förstärkte ”präriehornen” .\n<br>\n<br>Musik är tidlös – Ludvika Musikkår firar 115 år med musik från nutid och musik skriven för 200 år sedan och återknyter kontakten med Erik Rapp , som förra gången var solist med kåren i november 1979.\n<br>\n<br>Text: Lars Dahlström\n<br>Foto: Karl-Erik Anestedt och Lars Dahlström\n<br>\n<br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">READ MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rfYyqSliVC",
-          "_anchor": "features10-q",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@flexDirection)": {
-              ".mbr-row": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".btn-container": {
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            "@media (min-width: 768px)": {
-              ".mbr-section-subtitle": {
-                "margin-bottom": "0"
-              }
-            }
-          },
-          "_name": "info2",
-          "_customHTML": "<section class=\"info2\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-right mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Här finns vi</h2>\n                <h3 class=\"mbr-section-subtitle align-right mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Repetitionslokalen på Tingshusgatan, Ludvika</h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">HOW IT WORK</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r9XKXz4PCj",
-          "_anchor": "info2-p",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".google-map": {
-              "height": "25rem",
-              "position": "relative",
-              "width": "100%",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            },
-            ".map-placeholder": {
-              "display": "none"
-            },
-            "h4": {
-              "padding-top": "5rem",
+            ".counter-container": {
               "color": "#767676",
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "padding-bottom": "3rem"
-            },
-            ".mbr-col-md-12": {
-              "width": "100%"
-            }
-          },
-          "_name": "map2",
-          "_customHTML": "<section class=\"map\" group=\"Maps\" plugins=\"amp-main,amp-iframe\">\n\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJeWRgHcCeXUYR2iWDSNOY2QQ\" value=\"Ludvika, Tingshusgatan\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"map-title mbr-col-sm-12 mbr-col-md-12 align-center\">\n                <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .map-title\">\n                    Map Title\n                </h2>\n            </div>\n            <div class=\"mbr-col-md-12 map-box\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"map-placeholder mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r9XKvyBAFf",
-          "_anchor": "map2-o",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
-    "historik.html": {
-      "settings": {
-        "title": "Historik",
-        "order": 1
-      },
-      "components": [
-        {
-          "_styles": {
-            "amp-sidebar": {
-              "min-width": "260px!important",
-              "z-index": "1050!important",
-              "background-color": "@menuBgColor"
-            },
-            "amp-sidebar.open:after": {
-              "content": "''",
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "bottom": "0",
-              "right": "0",
-              "background-color": "red"
-            },
-            ".open": {
-              "-webkit-transform": "translateX(0%) !important",
-              "transform": "translateX(0%) !important",
-              "display": "block!important"
-            },
-            ".builder-sidebar": {
-              "background-color": "@menuBgColor",
-              "position": "relative",
-              "min-height": "100vh",
-              "z-index": "1030",
-              "padding": "1rem 2rem",
-              "max-width": "20rem"
-            },
-            ".headerbar": {
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "padding": ".5rem 1rem",
-              "min-height": "70px",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "background": "@menuBgColor",
-              "&.sticky-nav": {
-                "position": "fixed",
-                "z-index": "1000",
-                "width": "100%"
-              }
-            },
-            "button.sticky-but": {
-              "position": "fixed"
-            },
-            ".brand": {
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "-webkit-align-self": "flex-start",
-              "align-self": "flex-start",
-              "padding-right": "30px",
-              "p": {
-                "margin": "0",
-                "padding": "0"
-              }
-            },
-            ".brand-name": {
-              "color": "#197bc6"
-            },
-            ".sidebar": {
-              "padding": "1rem 0",
-              "margin": "0"
-            },
-            ".sidebar > li": {
-              "list-style": "none",
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column"
-            },
-            ".sidebar a": {
-              "display": "block",
-              "text-decoration": "none",
-              "margin-bottom": "10px"
-            },
-            ".close-sidebar": {
-              "width": "30px",
-              "height": "30px",
-              "position": "relative",
-              "cursor": "pointer",
-              "background-color": "transparent",
-              "border": "none",
-              "&:focus": {
-                "outline": "2px auto @primaryColor"
-              },
-              "span": {
-                "position": "absolute",
-                "left": "0",
-                "top": "14px",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "-webkit-transform": "rotate(45deg)",
-                  "transform": "rotate(45deg)"
-                },
-                "&:nth-child(2)": {
-                  "-webkit-transform": "rotate(-45deg)",
-                  "transform": "rotate(-45deg)"
-                }
-              }
-            },
-            "@media (min-width: 992px)": {
-              "& .brand-name": {
-                "min-width": "8rem"
-              },
-              "& .builder-sidebar": {
-                "margin-left": "auto",
-                ".sidebar li": {
-                  "-webkit-flex-direction": "row",
-                  "flex-direction": "row",
-                  "-webkit-flex-wrap": "wrap",
-                  "flex-wrap": "wrap",
-                  "a": {
-                    "padding": ".5rem",
-                    "margin": "0"
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
                   }
                 }
-              },
-              "& .builder-overlay": {
-                "display": "none !important"
-              }
-            },
-            ".hamburger": {
-              "position": "absolute",
-              "top": "25px",
-              "right": "20px",
-              "margin-left": "auto",
-              "width": "30px",
-              "height": "20px",
-              "background": "none",
-              "border": "none",
-              "cursor": "pointer",
-              "z-index": "1000",
-              "& when (@showLogo)": {
-                "@media (min-width: 768px)": {
-                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
-                }
-              },
-              "&:focus": {
-                "outline": "none"
-              },
-              "span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "amp-img": {
-              "margin-right": "1rem",
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "height": "~\"@{logoHeight}px\"",
-              "width": "~\"@{logoWidth}px\"",
-              "@media (max-width: 768px)": {
-                "max-height": "55px",
-                "max-width": "55px"
               }
             }
           },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/dsc-2000-510x341.jpg\" layout=\"responsive\" width=\"55.33724340175953\" height=\"37\" alt=\"Ludvika Musikkår\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/dsc-2000-510x341.jpg\" alt=\"Ludvika Musikkår\" title=\"\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-1\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Ludvika Musikkår</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Home</a>\n              <a class=\"text-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Om oss</a>\n              <a class=\"text-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Kontakter</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
-          "_cid": "r9XhFiMelC",
-          "_anchor": "menu1-c",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "margin-bottom": "0"
-            },
-            ".mbr-section-title": {
-              "margin": "0"
-            }
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    Historik</h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>I likhet med många andra musikkårer i Sverige har även Ludvika Musikkår sina rötter inom den svenska industrin. Det är elektroindustrin med ABB:s föregångare Elektriska AB Magnet, sedermera ASEA, som utgör grunden. Musikkåren hette från början Musikföreningen Gnistan och starten skedde egentligen den 1 november 1902. Inledningsvis undersöktes om det fanns intresse hos de anställda att bilda en musikförening. Först under 1903 kom en spelande musikkår till stånd. Musikkåren hade under ett normalår under 90-talet ett 50-tal framträdanden varvade med lika många repetitioner, vilket vittnar om efterfrågan från olika arrangörer och en stor insats från medlemmarnas sida.\n</b><br>\n<br>Verksamhet har bedrivits oavbrutet sedan starten. I början var entusiasmen stor, så det blev hela tre övningskvällar i veckan. I den första årsberättelsen står ”att kassören haft det jobbigt eftersom han legat ute med stora förskott på grund av medlemmarnas liknöjdhet att betala månadsavgiften”. Kontant i kassan fanns efter första året 0,21 kr att överföra till 1904 års verksamhet. \n<br>\n<br>Det fanns också en musikförening utanför elektroföretaget. Den kallade sig för Ludvika Privata Musikkår och hade ingen anknytning till industrin. Men ganska snart stod det klart, att Ludvika var för litet för att ha två musikkårer, så det blev en sammanslagning mellan de bägge föreningarna och namnet Ludvika Privata Musikkår antogs. Fortfarande var det dock många medlemmar som jobbade på elektroindustrin och kopplingen till ASEA bestod långt in på 1960-talet. Bland annat spelade musikkåren lunchkonserter varje onsdag under sommarhalvåret för den anställda. Vid årsmötet 1967 beslutades att kårens namn i fortsättningen skulle vara Ludvika Musikkår. \n<br>\n<br>Under 70-talet genomgick musikkåren en stor förvandling. Många ungdomar kom från den kommunala musikskolans verksamhet och medlemsantalet växte. I slutet av 70-talet var man stundtals över 70 musiker. En bidragande orsak till detta var en USA-resa, som gjordes 1976 tillsammans med andra kulturgrupper i Västerbergslagen. Repertoaren moderniserades och blandningen av unga musiker och ”äldre” från dansorkestrarnas tid blev en lyckad konstellation, som uppmärksammades på många sätt.\n<br>\n<br>Samtidigt etablerades ett samarbete med några folkkära artister i landet. Flera konserter med Sonja Stjernqvist, Lasse Lönndahl, Hans Josefsson, Sven Erik Vikström, Sören Rydgren och Bertil Boo rönte stor uppmärksamhet. När kåren sedan ansvarade för sommarens trivselkvällar på Gammelgården steg populariteten ytterligare.Varje år marscherar musikkåren genom stadens gator och spelar marschmusik på Kristi Himmelsfärdsdags morgon. Detta arrangemang har pågått sedan 1920-talet. För 20 år sedan spelades Händels fyrverkerimusik när sommarsäsongen avslutades på Hammarbacken. Detta har sedan blivit en tradition och lockar idag flera tusen åskådare. I mörkret lyser ett anslående fyrverkeri över sjön Väsman och musikkåren sitter vid notställ försedda med julgransljus.\n<br>\n<br>1981 blev kåren dessutom engagerad av försvaret som Hemvärnets Musikkår i Ludvika. Därav följde, att nya typer av spelningar blev möjliga. Framträdanden i Stockholm i samband med vaktparaden och försvarsrepresentation i Danmark är exempel på sådana spelningar. \n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r9XykG18OW",
-          "_anchor": "content2-g",
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>2019-02-09 Konsert - Norrbärke kyrka, kl 16.00. Sångsolist - Katarina Frisk\n</b></li><li><b>2019-03-23 Konsert - Aveny Ludvika \n</b></li><li><b>2019-04-28 Konsert – Cassels med Saxdalens Manskör\n</b></li><li><b>2019-05-01 Marsch\n</b></li><li><b>2019-05-18 Blåsmusikens dag Ludvika\n</b></li><li><b>2019-06-06 Nationaldagen\n</b></li><li><b>2019-06-07 Studentspelning\n</b></li><li><b>2019-06-08 Evenemang på stan\n</b></li><li><b>2019-06-15 Ludvika Stadslopp, 14.00-15.00\n</b></li><li><b>2019-11-16 Konsert i Lindesberg tillsammans med Guldsmedshyttans Musikkår och Martin Almgren\n</b></li><li><b>2019-11-23 Konsert - Aveny Ludvika tillsammans med Guldsmedshyttans Musikkår och Martin Almgren</b></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rgRiwe1qM1",
+          "_anchor": "content12-2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
